@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  overflow: hidden;
+}
+
+.box {
+  /* width: 1512px; */
+  height: 850px;
+  background: radial-gradient(#012f50ed, #011B2E);
+  margin: 0 auto;
+
+}
+
+
+.rest {
+  display: none;
+  position: absolute;
+}
+
+.rest img {
+  display: inline-block;
+  width: 720px;
+  vertical-align: top;
+  margin-left: 200px;
+}
+
+.text {
+  position: relative;
+  top: 148px;
+  left: 150px;
+  display: inline-block;
+}
+
+.text {
+  font-size: 110px;
+  background: linear-gradient(to right, #FFFFFF, rgba(255, 255, 255, .3));
+  -webkit-background-clip: text;
+  background-clip: text;
+  /*将设置的背景颜色限制在文字中*/
+  -webkit-text-fill-color: transparent;
+}
+
+.work {
+  position: absolute;
+  display: block;
+  position: fixed;
+}
+
+.work img {
+  float: left;
+  position: fixed;
+  /* margin-left: 100px; */
+  vertical-align: top;
+  width: 800px;
+
+}
+
+.writeText {
+  margin-left: 150px;
+  margin-top: 100px;
+  float: left;
+  background: linear-gradient(to right, #FFFFFF, rgba(255, 255, 255, .3));
+  -webkit-background-clip: text;
+  background-clip: text;
+  /*将设置的背景颜色限制在文字中*/
+  -webkit-text-fill-color: transparent;
+}
+
+.writeText h1 {
+  font-size: 120px;
+}
+
+.writeText p {
+  font-size: 80px;
+}
+
+.writeText span {
+  font-size: 60px;
+}
+
+.spe {
+  background-color: #d78084;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
